@@ -5,6 +5,7 @@ console.log(num.toString().split(""));
 
 
 
+
 function multiplyEachDigit(num) {
     numString = num.toString();
     let sum = 1;
@@ -23,8 +24,12 @@ function multiplyEachDigit(num) {
 //   multiplyEachDigit(num);
 
 
-  let toPower3 = multiplyEachDigit(num) ** 3;
-  console.log(toPower3.toString().substring(0, 2));
+
+let toPower3 = multiplyEachDigit(num) ** 3;
+console.log(toPower3.toString().substring(0, 2));
+
+
+
 
   
 
